@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JS vanila test</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  </head>
+  <body>
+   <nav class="navbar navbar-default">
+   	<div class="container">
+   		<div class="navbar-header">
+   			<a href="/" onclick="" class="navbar-opcion">LogOut</a>
+   		</div>
+   	</div>
+   </nav>
+    
+   <div class="container">
+   	<div class="jumbotron">
+   		<h3 class="text-center">Busca tu película</h3>
+   		<form id="search">
+   			<input type="text" id="searchText" class="form-control" onchange="searchMovie()">
+   		</form>
+   	</div>
+   </div>
+   <div class="container">
+   	<div id="movies" class="row">
+   		
+   	</div>
+   </div>
+
+  
+	<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+	<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
