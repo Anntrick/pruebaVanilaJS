@@ -1,0 +1,47 @@
+.moviesCard{
+	height: 435px
+}
+
+.imageContainer{
+	max-height: 300px;
+	overflow: hidden;
+}
+
+.movieImage{
+	width:95%;
+}
+
+.movieDetailsImage{
+	width: 50%;
+    margin: 0 25%;
+}
+
+
+
+
+
+/*  ---- LOGIN FORM ---- */
+
+.loginContainer{
+	max-width: 350px;
+}
+
+.form-signin-heading{
+    margin: 40px 0 15px 0;
+}
+
+.loginContainer .btn {
+	margin: 15px 0;
+}
+
+.form-signin input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
